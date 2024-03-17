@@ -1,0 +1,36 @@
+/* 1st problem */
+
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 100px;
+   
+}
+li{
+    list-style-type: none;
+    background-color: aqua;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+/* 2nd problem */
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+}
+  
+    
+    

@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation: colorAnimate 4s ease-out 1s infinite normal;
+    background-image: url(me.jpg);
+    background-size: cover;
+}
+@keyframes colorAnimate {
+    0% {
+       right:0px;
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+       left:  800px;
+        background-color: red;
+        color: white;
+    }
+}
